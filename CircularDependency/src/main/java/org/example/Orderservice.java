@@ -15,4 +15,8 @@ public class Orderservice {
 
         System.out.println("Order is placed");
     }
+
+    public  void getOrderDetail(){
+        System.out.println("Oder Details");
+    }
 }

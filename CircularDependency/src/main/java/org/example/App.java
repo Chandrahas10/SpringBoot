@@ -14,10 +14,10 @@ public class App
     {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-//        Orderservice order =context.getBean(Orderservice.class);
-//        order.placeOrder();
+        Orderservice order =context.getBean(Orderservice.class);
+        order.placeOrder();
 
-        A a =new A();
+//        A a =new A();
 
     }
 }
